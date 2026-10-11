@@ -1,0 +1,35 @@
+# Arduino IDE specific
+*.ino.backup
+*.hex
+*.bin
+*.elf
+
+# Build directories
+build/
+tmp/
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Project specific
+*.log
+*.tmp
+/temp/
+images/
+
+# Local configuration files
+wifi_config.txt
+local_config.h
+
+# Arduino IDE preferences
+preferences.txt
+
+# Upload tools
+esptool.log
